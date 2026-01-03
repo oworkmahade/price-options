@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" ">
+      <nav className="">
         <div
           onClick={() => setOpen(!open)}
           className="md:hidden text-3xl  bg-yellow-400 p-4"
@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex absolute md:static bg-green-400 px-8 duration-1000 p-4
+          className={`md:flex flex-row justify-center absolute md:static w-full bg-green-400 px-8 p-4 font-semibold text-xl
             ${open ? "top-16" : "-top-60"}
             `}
         >

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic Monthly",
+    "duration": "1 Month",
+    "price": 1500,
+    "currency": "BDT",
+    "features": ["Gym Access", "Locker Facility"]
+  },
+  {
+    "id": 2,
+    "planName": "Standard Quarterly",
+    "duration": "3 Months",
+    "price": 4000,
+    "currency": "BDT",
+    "features": ["Gym Access", "Locker Facility", "Cardio Zone"]
+  },
+  {
+    "id": 3,
+    "planName": "Premium Half-Yearly",
+    "duration": "6 Months",
+    "price": 7500,
+    "currency": "BDT",
+    "features": [
+      "Gym Access",
+      "Locker Facility",
+      "Cardio Zone",
+      "Personal Trainer (2 Sessions)"
+    ]
+  },
+  {
+    "id": 4,
+    "planName": "Gold Annual",
+    "duration": "12 Months",
+    "price": 14000,
+    "currency": "BDT",
+    "features": [
+      "Unlimited Gym Access",
+      "Locker",
+      "Cardio Zone",
+      "Personal Trainer (5 Sessions)",
+      "Diet Consultation"
+    ]
+  },
+  {
+    "id": 5,
+    "planName": "Student Special",
+    "duration": "1 Month",
+    "price": 1000,
+    "currency": "BDT",
+    "features": ["Gym Access", "Locker Facility"],
+    "eligibility": "Valid Student ID Required"
+  }
+]
