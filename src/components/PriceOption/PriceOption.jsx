@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FaCheck } from "react-icons/fa6";
 
 const PriceOption = ({ priceOption }) => {
-  const { id, planName, duration, price, currency, features } = priceOption;
+  const { planName, duration, price, currency, features } = priceOption;
 
   return (
     <>
